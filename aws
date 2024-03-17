@@ -9,4 +9,7 @@ First command "ssh -i file.pem username@ip-add"
 then "chmod 0400 file.pem
 after that again  ssh -i file.pem username@ip-addr
 
+16.171.225.89-public ip
+
+
 
