@@ -1,0 +1,12 @@
+To start a VM in aws firstly go to "Ec2".
+Then go to launch instance.
+After that  create a key pair and download it.
+Then go to view instance,there we can see our instance.
+Then connect it.There we can see the public and private IP's of VM.
+If you want to ping your IP ,go and select an instance and then go to security where you see a edit inbound rule and in that you can chance it to "All ipv4 icmp" and "Anywhere ipv4".After that you can ping your VM.
+For login through ssh 
+First command "ssh -i file.pem username@ip-add"
+then "chmod 0400 file.pem
+after that again  ssh -i file.pem username@ip-addr
+
+
